@@ -1,0 +1,12 @@
+{
+    "name" :"Order Received",
+    "gender":"Female",
+    "productName": ["Blackberry","Nokia Edge"],
+    "username":"mukul.anand@wundermanthompson.com",
+    "password":"Wtc@123#",
+    "product":"WV361S1000UK",
+    "cardnumber":"4000000000001000",
+    "expirydate":"0124",
+    "cvv":"123"
+   
+   }

@@ -1,0 +1,160 @@
+[
+  {
+    "description": "    application Regression",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-ecommerce-validation;ecommerce-products-delivery",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ecommerce products delivery",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open newlook Page",
+            "result": {
+              "duration": 11136000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on Signin link",
+            "result": {
+              "duration": 5400000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be on log in page",
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 9,
+            "name": "I fill login details",
+            "result": {
+              "duration": 3327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on submit button",
+            "result": {
+              "duration": 8896000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I validate i am on Myaccount page",
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 12,
+            "name": "I search for the product",
+            "result": {
+              "duration": 2325000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I select the 1st first product from the search result",
+            "result": {
+              "duration": 26217000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click on Add to basket",
+            "result": {
+              "duration": 1041000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I click on checkout button",
+            "result": {
+              "duration": 21587000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user pay the amount by pay by card option",
+            "result": {
+              "duration": 28144000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "id": "end-to-end-ecommerce-validation",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "End to end Ecommerce validation",
+    "uri": "cypress\\integration\\examples\\BDD\\ecommerce.feature"
+  }
+]
